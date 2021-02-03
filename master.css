@@ -1,0 +1,80 @@
+/* formattazione body (sfondo della pagina e font Ubuntu) */
+body{
+  box-sizing: border-box;
+  background-size: 100%;
+  background-image: url(Imgs/background.jpg);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* formattazione contenitore testo */
+.contenitore-corpo{
+  margin: auto;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 15px;
+  padding-bottom: 3.5%;
+}
+
+/* intestazione */
+.intestazione{
+  text-align: center;
+  padding-top: 9%;
+  color: #1de010;
+  line-height: 1px;
+}
+
+#logo{
+  width: 200px
+}
+
+/* sezione prenotazione */
+nav{
+  margin:auto;
+  width: 80%;
+  text-align: center;
+  background-color: #1de010;
+  padding: 1%;
+}
+
+/* sezione monopattini disponibili */
+
+.monopattini-disponibili>.Monopattino{
+  box-sizing: border-box;
+  padding: 1.75% 0%;
+  margin: auto;
+  width: 82%;
+  color: white;
+}
+
+.nome-monopattino{
+  font-weight: bold;
+}
+
+.geolocalizzazione:before{
+  content: "\21A6";
+}
+
+/* Autonomia dei monopattini */
+#autonomia-gino22{
+  display: block;
+  width: 40%;
+  height: 20px;
+  background-color: #ffc107;
+  border-radius: 5px;
+}
+
+#autonomia-mike24{
+  display: block;
+  width: 70%;
+  height: 20px;
+  background-color: #01b901;
+  border-radius: 5px;
+}
+
+#autonomia-fede154{
+  display: block;
+  width: 20%;
+  height: 20px;
+  background-color: #c33636;
+  border-radius: 5px;
+}
